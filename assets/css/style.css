@@ -120,7 +120,7 @@ body { background: var(--white); }
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(--black);
   border-left: 1px solid var(--cultured);
 }
 
@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   position: absolute;
   top: 15px;
   right: 15px;
-  background: var(--salmon-pink);
+  background: var(--lime-green);
   color: var(--white);
   font-size: 16px;
   padding: 5px;
@@ -293,14 +293,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .newsletter-header { margin-bottom: 20px; }
 
 .newsletter-title {
-  color: var(--onyx);
+  color: var(--dark-red);
   font-size: var(--fs-2);
   font-weight: var(--weight-600);
   margin-bottom: 10px;
 }
 
 .newsletter-desc {
-  color: var(--sonic-silver);
+  color: var(--lime-green);
   font-size: var(--fs-7);
   line-height: 1.6;
 }
@@ -315,7 +315,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .btn-newsletter {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(---lime-green);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -325,7 +325,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   transition: var(--transition-timing);
 }
 
-.btn-newsletter:hover { background: var(--salmon-pink); }
+.btn-newsletter:hover { background: var(--lime-green); }
 
 
 
