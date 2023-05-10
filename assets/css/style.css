@@ -1018,7 +1018,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .blog-title {
-  color: var(--eerie-black);
+  color: var(red);
   font-size: var(--fs-5);
   font-weight: var(--weight-600);
   line-height: 1.4;
@@ -1035,7 +1035,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .blog-meta cite {
   font-style: normal;
-  color: var(--davys-gray);
+  color: var(lime);
 }
 
 
