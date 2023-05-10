@@ -90,7 +90,7 @@ input {
 
 input::placeholder { font: inherit; }
 
-body { background: var(); }
+body { background: var(red); }
 
 /**
  * scrollbar style
