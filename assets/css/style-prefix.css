@@ -30,7 +30,7 @@
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
   black: hsl(102, 66%, 0%);
-  --onyx: hsl(0, 0%, 27%);
+  red: hsl(350, 89%, 49%);
 
   /**
    * typography
@@ -343,7 +343,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .newsletter-header { margin-bottom: 20px; }
 
 .newsletter-title {
-  color: var(--onyx);
+  color: var(red);
   font-size: var(--fs-2);
   font-weight: var(--weight-600);
   margin-bottom: 10px;
@@ -506,7 +506,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .toast-title {
   font-size: var(--fs-7);
   font-weight: var(--weight-500);
-  color: var(--onyx);
+  color: var(red);
 }
 
 .toast-meta {
@@ -539,7 +539,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .header-search-container .search-field {
   font-size: var(--fs-7);
-  color: var(--onyx);
+  color: var(red);
   padding: 10px 15px;
   padding-right: 50px;
   border: 1px solid var(black);
@@ -557,7 +557,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: var(--onyx);
+  color: var(red);
   font-size: 18px;
   padding: 8px 15px;
   -webkit-border-radius: var(--border-radius-md);
@@ -705,7 +705,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .accordion-menu > div { font-size: 14px; }
 
 .accordion-menu ion-icon {
-  color: var(--onyx);
+  color: var(red);
   --ionicon-stroke-width: 90px;
 }
 
@@ -958,7 +958,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .sidebar .showcase-heading {
   font-size: var(--fs-5);
   font-weight: var(--weight-600);
-  color: var(--onyx);
+  color: var(red);
   text-transform: uppercase;
   letter-spacing: 0.8px;
   margin-bottom: 15px;
@@ -983,7 +983,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .sidebar .showcase-content { width: -webkit-calc(100% - 90px); width: calc(100% - 90px); }
 
 .sidebar .showcase-title {
-  color: var(--onyx);
+  color: var(red);
   font-size: var(--fs-7);
   font-weight: var(--weight-400);
   text-transform: capitalize;
@@ -1078,7 +1078,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .testimonial-title {
-  color: var(--onyx);
+  color: var(red);
   font-size: var(--fs-7);
   margin-bottom: 15px;
 }
@@ -1153,7 +1153,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .cta-title {
-  color: var(--onyx);
+  color: var(red);
   font-size: var(--fs-5);
   text-transform: capitalize;
   margin-bottom: 5px;
@@ -1328,7 +1328,7 @@ footer {
 .footer-category {
   margin-bottom: 30px;
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--onyx);
+  border-bottom: 1px solid var(red);
 }
 
 .footer-category-title {
@@ -1397,7 +1397,7 @@ footer {
  */
 
 .footer-nav {
-  border-bottom: 1px solid var(--onyx);
+  border-bottom: 1px solid var(red);
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -1921,7 +1921,7 @@ footer {
   .header-user-actions .action-btn {
     position: relative;
     font-size: 35px;
-    color: var(--onyx);
+    color: var(red);
     padding: 5px;
   }
 
@@ -1962,7 +1962,7 @@ footer {
 
   .desktop-menu-category-list .menu-category > .menu-title {
     position: relative;
-    color: var(--onyx);
+    color: var(red);
     font-size: var(--fs-7);
     font-weight: var(--weight-600);
     text-transform: uppercase;
@@ -2034,7 +2034,7 @@ footer {
   }
 
   .dropdown-panel-list .menu-title a {
-    color: var(--onyx);
+    color: var(red);
     font-size: var(--fs-7);
     font-weight: var(--weight-600);
     padding-bottom: 10px;
