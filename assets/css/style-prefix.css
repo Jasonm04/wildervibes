@@ -23,13 +23,13 @@
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
-  lime: hsl(102, 100%, 50%);
+  lime: hsl(102, 66%, 54%);
   --sandy-brown: hsl(29, 90%, 65%);
   --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  black: hsl(102, 66%, 0%);
   --onyx: hsl(0, 0%, 27%);
 
   /**
@@ -121,7 +121,7 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-body { background: var(--white); }
+body { background: var(black); }
 
 /**
  * scrollbar style
@@ -130,13 +130,13 @@ body { background: var(--white); }
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(black);
   border-left: 1px solid var(--cultured);
 }
 
 body::-webkit-scrollbar-thumb {
   background: hsl(0, 0%, 80%);
-  border: 3px solid var(--white);
+  border: 3px solid var(black);
   -webkit-border-radius: 10px;
           border-radius: 10px;
 }
@@ -162,7 +162,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: transparent;
-  border: 3px solid var(--white);
+  border: 3px solid var(black);
   -webkit-border-radius: 20px;
           border-radius: 20px;
 }
@@ -296,7 +296,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var(--white);
+  background: var(black);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   overflow: hidden;
@@ -324,7 +324,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   top: 15px;
   right: 15px;
   background: var(lime);
-  color: var(--white);
+  color: var(black);
   font-size: 16px;
   padding: 5px;
   -webkit-border-radius: var(--border-radius-sm);
@@ -366,7 +366,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .btn-newsletter {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(black);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -394,7 +394,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   bottom: 80px;
   left: 20px;
   right: 20px;
-  background: var(--white);
+  background: var(black);
   max-width: 300px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -542,7 +542,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   color: var(--onyx);
   padding: 10px 15px;
   padding-right: 50px;
-  border: 1px solid var(--white);
+  border: 1px solid var(black);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
 }
@@ -550,7 +550,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .search-field::-webkit-search-cancel-button { display: none; }
 
 .search-btn {
-  background: var(--white);
+  background: var(black);
   position: absolute;
   top: 50%;
   right: 2px;
@@ -606,7 +606,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .mobile-bottom-navigation .count {
   background: var(--lime);
-  color: var(--white);
+  color: var(black);
   position: absolute;
   top: 0;
   right: 0;
@@ -720,7 +720,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .submenu-title {
   padding: 6px 0;
   font-size: var(--fs-6);
-  color: var(--lime-green);
+  color: var(lime);
   font-weight: var(--weight-300);
 }
 
@@ -1138,7 +1138,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .cta-content .discount {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(black);
   font-size: var(--fs-11);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -1406,7 +1406,7 @@ footer {
 
 .footer-nav .nav-title {
   position: relative;
-  color: var(--white);
+  color: var(black);
   font-size: var(--fs-7);
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1903,7 +1903,7 @@ footer {
 
   .header-social-container .social-link:hover {
     background: var(lime);
-    color: var(--white);
+    color: var(black);
   }
 
   .header-user-actions {
@@ -1930,7 +1930,7 @@ footer {
     top: -2px;
     right: -3px;
     background: var(--bittersweet);
-    color: var(--white);
+    color: var(black);
     font-size: 12px;
     font-weight: var(--weight-500);
     line-height: 1;
@@ -1999,7 +1999,7 @@ footer {
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--white);
+    background: var(black);
     width: 100%;
     display: -ms-grid;
     display: grid;
@@ -2069,7 +2069,7 @@ footer {
     top: 100%;
     left: 0;
     width: 200px;
-    background: var(--white);
+    background: var(black);
     padding: 20px 0;
     -webkit-border-radius: var(--border-radius-md);
             border-radius: var(--border-radius-md);
