@@ -20,12 +20,11 @@
    * colors
    */
 
-  --spanish-gray: hsl(0, 0%, 60%);
+  
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
   lime: hsl(102, 66%, 54%);
   --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   black: hsl(102, 66%, 0%);
@@ -1344,7 +1343,7 @@ footer {
 }
 
 .category-box-title {
-  color: var(--spanish-gray);
+  color: var();
   font-size: var(--fs-8);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -1360,7 +1359,7 @@ footer {
   transition: var(--transition-timing);
 }
 
-.footer-category-link:hover { color: var(--spanish-gray); }
+.footer-category-link:hover { color: var(); }
 
 .footer-category-link:not(:last-child)::after {
   position: absolute;
@@ -1910,7 +1909,7 @@ footer {
     position: absolute;
     top: -2px;
     right: -3px;
-    background: var(--bittersweet);
+    background: var();
     color: var(black);
     font-size: 12px;
     font-weight: var(--weight-500);
