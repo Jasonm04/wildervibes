@@ -24,8 +24,6 @@
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: hsl(0, 0%, 13%);
   lime: hsl(102, 66%, 54%);
-  --sandy-brown: hsl(29, 90%, 65%);
-  --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   black: hsl(102, 66%, 0%);
   red: hsl(350, 89%, 49%);
@@ -983,7 +981,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--sandy-brown);
+  color: var();
   font-size: 13px;
   padding: 4px 0;
 }
