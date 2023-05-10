@@ -148,7 +148,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 .has-scrollbar::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 80%); }
 
 .title {
-  color: var();
+  color: var(red);
   font-size: var(--fs-5);
   font-weight: var(--weight-600);
   letter-spacing: 0.4px;
@@ -319,14 +319,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 .newsletter-header { margin-bottom: 20px; }
 
 .newsletter-title {
-  color: var(red);
+  color: var(black);
   font-size: var(--fs-2);
   font-weight: var(--weight-600);
   margin-bottom: 10px;
 }
 
 .newsletter-desc {
-  color: var();
+  color: var(black);
   font-size: var(--fs-7);
   line-height: 1.6;
 }
@@ -336,13 +336,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   padding: 8px 16px;
   -webkit-border-radius: var(--border-radius-sm);
           border-radius: var(--border-radius-sm);
-  border: 1px solid var(black);
+  border: 1px solid var(white);
   margin-bottom: 16px;
 }
 
 .btn-newsletter {
-  background: var();
-  color: var(black);
+  background: var(black);
+  color: var(red);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -355,7 +355,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   transition: var(--transition-timing);
 }
 
-.btn-newsletter:hover { background: var(lime); }
+.btn-newsletter:hover { background: var(white); }
 
 
 
@@ -370,7 +370,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   bottom: 80px;
   left: 20px;
   right: 20px;
-  background: var(black);
+  background: var(grey);
   max-width: 300px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -475,7 +475,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 
 .toast-message {
   font-size: var(--fs-10);
-  color: var();
+  color: var(red);
   margin-bottom: 8px;
 }
 
@@ -500,11 +500,11 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 
 .header-top,
 .header-user-actions,
-.desktop-navigation-menu { display: none; }
+.desktop-navigation-menu { display: inline; }
 
 .header-main {
   padding: 20px 0;
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(red);
 }
 
 .header-logo { margin-bottom: 20px; }
@@ -515,7 +515,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 
 .header-search-container .search-field {
   font-size: var(--fs-7);
-  color: var(red);
+  color: var(white);
   padding: 10px 15px;
   padding-right: 50px;
   border: 1px solid var(black);
@@ -526,14 +526,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 .search-field::-webkit-search-cancel-button { display: none; }
 
 .search-btn {
-  background: var(black);
+  background: var(grey);
   position: absolute;
   top: 50%;
   right: 2px;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: var(red);
+  color: var(black);
   font-size: 18px;
   padding: 8px 15px;
   -webkit-border-radius: var(--border-radius-md);
@@ -543,7 +543,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   transition: color var(--transition-timing);
 }
 
-.search-btn:hover { color: var(lime); }
+.search-btn:hover { color: var(red); }
 
 .mobile-bottom-navigation {
   background: var();
@@ -576,7 +576,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 .mobile-bottom-navigation .action-btn {
   position: relative;
   font-size: 26px;
-  color: var();
+  color: var(red);
   padding: 10px;
 }
 
@@ -595,7 +595,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 }
 
 .mobile-navigation-menu {
-  background: var();
+  background: var(blue);
   position: fixed;
   top: 0;
   left: -100%;
