@@ -1268,7 +1268,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .blog-title {
-  color: var(--eerie-black);
+  color: var();
   font-size: var(--fs-5);
   font-weight: var(--weight-600);
   line-height: 1.4;
@@ -1281,13 +1281,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .blog-title:hover { color: var(lime); }
 
 .blog-meta {
-  color: var(--sonic-silver);
+  color: var();
   font-size: var(--fs-7);
 }
 
 .blog-meta cite {
   font-style: normal;
-  color: var(--davys-gray);
+  color: var();
 }
 
 
