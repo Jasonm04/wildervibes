@@ -702,7 +702,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   font-weight: var(--weight-300);
 }
 
-.submenu-title:hover { color: var(--lime-green); }
+.submenu-title:hover { color: var(lime); }
 
 .submenu-category-list {
   max-height: 0;
@@ -725,14 +725,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .menu-bottom .menu-title {
   font-size: var(--fs-6);
   font-weight: var(--weight-500);
-  color: var(--lime-green);
+  color: var(lime);
   padding: 12px 0;
 }
 
 .accordion-menu.active .caret-back { -webkit-transform: rotate(-0.25turn); -ms-transform: rotate(-0.25turn); transform: rotate(-0.25turn); }
 
 .menu-bottom .submenu-category-list {
-  border: 1px solid var(--lime-green);
+  border: 1px solid var(lime);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   padding: 0 15px;
@@ -813,7 +813,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .sidebar-category {
   margin-bottom: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--lime-green);
+  border-bottom: 1px solid var(lime);
 }
 
 .sidebar-top {
@@ -833,7 +833,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .sidebar-title {
-  color: var(--lime-green);
+  color: var(lime);
   font-size: var(--fs-5);
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -879,18 +879,18 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .sidebar .menu-title {
   font-size: var(--fs-5);
-  color: var(--dark-red);
+  color: var(red);
   font-weight: var(--weight-500);
 }
 
 .sidebar-accordion-menu ion-icon {
-  color: var(--lime-green);
+  color: var(lime);
   font-size: 14px;
   --ionicon-stroke-width: 70px;
 }
 
 .sidebar-submenu-category-list {
-  border-top: 1px solid var(--dark-red);
+  border-top: 1px solid var(red);
   max-height: 0;
   overflow: hidden;
   visibility: hidden;
