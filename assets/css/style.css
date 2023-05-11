@@ -1563,7 +1563,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .blog-meta cite {
   font-style: normal;
-  color: var(--davys-gray);
+  color: var(--eerie-black);
 }
 
 
