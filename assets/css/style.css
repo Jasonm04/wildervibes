@@ -235,7 +235,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var();
+  background: var(red);
   border-radius: var(--border-radius-md);
   overflow: hidden;
   z-index: 2;
@@ -272,14 +272,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 .newsletter-header { margin-bottom: 20px; }
 
 .newsletter-title {
-  color: var(--dark-red);
+  color: var(red);
   font-size: var(--fs-2);
   font-weight: var(--weight-600);
   margin-bottom: 10px;
 }
 
 .newsletter-desc {
-  color: var(lime);
+  color: var(black);
   font-size: var(--fs-7);
   line-height: 1.6;
 }
@@ -293,8 +293,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 }
 
 .btn-newsletter {
-  background: var();
-  color: var(lime);
+  background: var(black);
+  color: var(red);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -304,7 +304,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   transition: var(--transition-timing);
 }
 
-.btn-newsletter:hover { background: var(lime); }
+.btn-newsletter:hover { background: var(white); }
 
 
 
