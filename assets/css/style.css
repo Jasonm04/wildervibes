@@ -300,7 +300,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .newsletter-desc {
-  color: var(--sonic-silver);
+  color: var(--eerie-black);
   font-size: var(--fs-7);
   line-height: 1.6;
 }
