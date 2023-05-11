@@ -97,7 +97,7 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-body { background: var(black); }
+body { background: var(red); }
 
 /**
  * scrollbar style
@@ -272,7 +272,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var(black);
+  background: var(red);
   -webkit-border-radius: var(--border-radius-md);
           border-radius: var(--border-radius-md);
   overflow: hidden;
@@ -341,8 +341,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(350, 0%, 70%); }
 }
 
 .btn-newsletter {
-  background: var(black);
-  color: var(red);
+  background: var(red);
+  color: var(black);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
