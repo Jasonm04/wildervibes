@@ -544,7 +544,7 @@ section{
     border-radius: 12px
 }
 .image{
-    background-color: #12192c;
+    background-color: #2a33ef;
     display: flex;
     border-radius: 12px 0 0 12px;
 }
@@ -553,7 +553,7 @@ height:50vh;
 margin:50px auto
 }
 .content{
-    background-color: #12192c;
+    background-color: #2a33ef;
     display: flex;
     justify-content: center;
     flex-direction: column;
