@@ -75,7 +75,7 @@
 }
 
 .card button {
-  border: 1px;
+  border: 1px solid;
   outline: 0;
   padding: 12px;
   color: hsl(125, 69%, 62%);
@@ -87,5 +87,6 @@
 }
 
 .card button:hover {
-  color: hsl(0, 0%, 13%);
+  color: hsl(360, 87%, 42%);
+  background-color: #212121;
 }
