@@ -8,7 +8,7 @@
 }
 
 .card h1, p {
-  color: hsl(125, 69%, 62%);
+  color: hsl(237, 86%, 55%);
 }
 
 .price {
@@ -29,7 +29,7 @@
 }
 
 .size h3,.color h3 {
-    color: hsl(237, 86%, 55%);
+    color: hsl(125, 69%, 62%);
     font-weight: 300;
     font-size: 14px;
     text-transform: uppercase;
