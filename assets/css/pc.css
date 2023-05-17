@@ -12,6 +12,68 @@
   font-size: 22px;
 }
 
+.size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+.color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+.size h3,.color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: .5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size span:hover {  /* other bug */
+    background: #B90000;
+}
+
+.color span {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.color span:nth-child(2) {
+     background: #1BBFE9;
+}
+
+.color span:nth-child(3) {
+     background: #1B2FE9;
+}
+
+.color span:nth-child(4) {
+     background: #080481;
+}
+
 .card button {
   border: none;
   outline: 0;
