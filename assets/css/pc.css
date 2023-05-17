@@ -7,6 +7,14 @@
   margin-bottom: 15px;
 }
 
+.h1 {
+  color: hsl(125, 69%, 62%);
+}
+
+.p {
+  color: hsl(125, 69%, 62%);
+}
+
 .price {
   color: hsl(237, 86%, 55%);
   font-size: 22px;
