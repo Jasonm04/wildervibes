@@ -570,7 +570,7 @@ margin:50px auto
 .content span{
     height: 0.5px;
     width: 80px;
-    background: #d60505;
+    background: hsl(360, 95%, 43%);
     margin: 30px 0;
 }
 .content p{
@@ -581,7 +581,7 @@ margin:50px auto
     text-align: center;
     margin: 0 auto;
     line-height: 1.7;
-    color:#d60505
+    color:hsl(360, 95%, 43%)
 }
 .links{
     margin: 15px 0;
