@@ -9,18 +9,18 @@ body {
   background: #353535;
 }
 
-.container {
+.product-container {
   width: 280px;
   height: 500px;
   margin: 30px auto;
 }
 
-.card {
+.product-card {
   border-radius: 25px;
   box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
 }
 
-.card-head {
+.product-card-head {
   position: relative;
   height: 252px;
   background: #fa782e;
@@ -36,7 +36,7 @@ body {
   border-radius: 25px 25px 0 0;
 }
 
-.card-logo {
+.product-card-logo {
   width: 55px;
   margin: 20px;
 }
@@ -71,7 +71,7 @@ body {
   opacity: 0.1;
 }
 
-.card-body {
+.product card-body {
   height: 255px;
   background: #fff;
   border-radius: 0 0 25px 25px;
@@ -128,17 +128,17 @@ body {
   text-transform: uppercase;
 }
 
-.ul-size {
+.product-ul-size {
   margin-left: 15px;
 }
 
-.ul-size li {
+.product-ul-size li {
   list-style: none;
   float: left;
   margin-right: 20px;
 }
 
-.ul-size li a {
+.product-ul-size li a {
   display: inline-block;
   text-decoration: none;
   font-size: 11px;
@@ -150,7 +150,7 @@ body {
   color: #000;
 }
 
-.ul-size li a.active {
+.product-ul-size li a.active {
   background: #f35e3d;
   color: #fff;
 }
@@ -170,36 +170,36 @@ body {
   text-transform: uppercase;
 }
 
-.ul-color {
+.product-ul-color {
   margin-left: 27px;
 }
 
-.ul-color li {
+.product-ul-color li {
   list-style: none;
   float: left;
   margin-right: 20px;
 }
 
-.ul-color li a {
+.product-ul-color li a {
   display: inline-block;
   width: 16px;
   height: 16px;
   border-radius: 100%;
 }
 
-.ul-color li a.orange {
+.product-ul-color li a.orange {
   background: #f35e3d;
 }
 
-.ul-color li a.green {
+.product-ul-color li a.green {
   background: #11e95b;
 }
 
-.ul-color li a.yellow {
+.product-ul-color li a.yellow {
   background: #ffd414;
 }
 
-.ul-color li a.active:after {
+.product-ul-color li a.active:after {
   position: absolute;
   content: '';
   display: inline-block;
@@ -230,19 +230,4 @@ body {
   margin-left: 5px;
 }
 
-
-
-.yt
-{
-  position: fixed;
-  padding:7px 10px 3px 10px;
-  top: 5px;
-  right: 5px;
-  background: rgba(0,0,0,0.1);
-}
-
-.yt:hover
-{
-  background: rgba(0,0,0,0.2);
-}
 
