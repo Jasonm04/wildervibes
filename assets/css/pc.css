@@ -1,6 +1,7 @@
 .card {
   position: relative;
   aspect-ratio: 5 / 6;
+  border: 1px solid var(--cultured);
   border-radius: var(--border-radius-md);
   overflow: hidden;
   margin-bottom: 25px;
