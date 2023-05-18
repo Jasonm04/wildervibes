@@ -1184,8 +1184,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
       -ms-flex-align: center;
           align-items: center;
   color: var(--white-w);
-  font-size: 13px;
-  padding: 4px 0;
+  font-size: ;
+  padding: ;
 }
 
 .sidebar .price-box {
