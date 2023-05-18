@@ -995,7 +995,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   display: flex;
   align-items: center;
   color: var();
-  font-size: 13px;
+  font-size: 0px;
   padding: 4px 0;
 }
 
