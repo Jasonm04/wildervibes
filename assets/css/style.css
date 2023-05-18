@@ -1090,13 +1090,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   font-weight: var(--weight-700);
   color: var(--salmon-pink);
 }
-
+/*
 .product-minimal .price-box del {
   font-size: var(--fs-9);
   color: var(--sonic-silver);
 }
 
-
+*/
 
 /*-----------------------------------*\
   #PRODUCT FEATURED
