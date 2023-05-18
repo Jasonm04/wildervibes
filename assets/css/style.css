@@ -29,6 +29,7 @@
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
+  --white-w: hsl(0, 100%, 100%);
   --white: hsl(360, 95%, 43%);
   --onyx: hsl(0, 0%, 13%);
 
@@ -994,7 +995,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .sidebar .showcase-rating {
   display: flex;
   align-items: center;
-  color: var();
+  color: var(--white-w);
   font-size: 0px;
   padding: 4px 0;
 }
@@ -1004,12 +1005,12 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   align-items: center;
   gap: 15px;
 }
-
+/*
 .sidebar .price-box del {
   color: var(--sonic-silver);
   font-size: 13px;
 }
-
+*/
 .sidebar .price-box .price {
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
