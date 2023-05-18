@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee 
+ * copyright 2023 @WebDevr Hut
  */
 
 
@@ -1182,7 +1182,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--sandy-brown);
+  color: var();
   font-size: 13px;
   padding: 4px 0;
 }
@@ -1364,7 +1364,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-featured .showcase-content { margin-top: 30px; }
 
 .product-featured .showcase-rating {
-  color: var(--sandy-brown);
+  color: var();
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
