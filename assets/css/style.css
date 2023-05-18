@@ -708,7 +708,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .banner { margin: 30px 0; }
 
 .slider-container {
-  display: flex;
+  display: ;
   align-items: center;
   gap: 10px;
   border-radius: var(--border-radius-md);
