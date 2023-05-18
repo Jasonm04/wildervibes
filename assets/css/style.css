@@ -996,8 +996,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   display: flex;
   align-items: center;
   color: var(--white-w);
-  font-size: 0px;
-  padding: 4px 0;
+  font-size: ;
+  padding: ;
 }
 
 .sidebar .price-box {
