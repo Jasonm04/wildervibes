@@ -991,7 +991,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   text-overflow: ellipsis;
   letter-spacing: 0.5px;
 }
-
+/*
 .sidebar .showcase-rating {
   display: flex;
   align-items: center;
@@ -999,7 +999,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   font-size: 13px ;
   padding: 4px 0;
 }
-
+*/
 .sidebar .price-box {
   display: flex;
   align-items: center;
