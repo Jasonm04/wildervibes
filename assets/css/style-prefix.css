@@ -1141,7 +1141,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   color: var(--onyx);
   text-transform: uppercase;
   letter-spacing: 0.8px;
-  margin-bottom: 15px;
+  margin-bottom: 75px;
 }
 
 .sidebar .showcase {
