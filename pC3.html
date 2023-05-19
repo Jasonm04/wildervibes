@@ -625,7 +625,7 @@
     <!--
       - BANNER
     -->
-
+<!--
     <div class="banner">
 
       <div class="container">
@@ -635,7 +635,7 @@
           <div class="slider-item">
 
             <img src="assets/images/upcomingShowBanner.jpg" alt="" class="banner-img">
-<!--
+
             <div class="banner-content">
 
               <p class="banner-subtitle">Trending item</p>
@@ -649,13 +649,13 @@
               <a href="#" class="banner-btn">Shop now</a>
 
             </div>
--->
+
           </div>
 
           <div class="slider-item">
 
             <img src="assets/images/blog-1.png" alt="" class="banner-img">
-<!--
+
             <div class="banner-content">
 
               <p class="banner-subtitle">Trending accessories</p>
@@ -669,13 +669,13 @@
               <a href="#" class="banner-btn">Shop now</a>
 
             </div>
--->
+
           </div>
 
           <div class="slider-item">
 
             <img src="assets/images/blog-1.png" alt="" class="banner-img">
-<!--
+
             <div class="banner-content">
 
               <p class="banner-subtitle">Sale Offer</p>
@@ -689,7 +689,7 @@
               <a href="#" class="banner-btn">Shop now</a>
 
             </div>
--->
+
           </div>
 
         </div>
@@ -700,7 +700,7 @@
 
 
 
-
+-->
 
     <!--
       - CATEGORY
@@ -2289,9 +2289,59 @@
     <span></span>
     <span></span>
  </div>
- <a href ="">
-  <p><button>Buy Now</button></p>
- </a>
+   <div>
+  <div><div 
+  <div>
+    <a target="_blank" data-url="https://square.link/u/LduXemnr?src=embd" href="https://square.link/u/LduXemnr?src=embed" style="
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 5px;
+  color: hsl(125, 69%, 62%);
+  background-color: #2a33ef;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  ">Buy Now</a>
+  </div>
+</div>
+</div>
+
+  <script>
+    function showCheckoutWindow(e) {
+      e.preventDefault();
+
+      const url = document.getElementById('embedded-checkout-modal-checkout-button').getAttribute('data-url');
+      const title = 'Square Online Checkout';
+
+      // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
+      const topWindow = window.top ? window.top : window;
+
+      // Fixes dual-screen position                                Most browsers          Firefox
+      const dualScreenLeft = topWindow.screenLeft !==  undefined ? topWindow.screenLeft : topWindow.screenX;
+      const dualScreenTop = topWindow.screenTop !==  undefined   ? topWindow.screenTop  : topWindow.screenY;
+
+      const width = topWindow.innerWidth ? topWindow.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+      const height = topWindow.innerHeight ? topWindow.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+      const h = height * .75;
+      const w = 500;
+
+      const systemZoom = width / topWindow.screen.availWidth;
+      const left = (width - w) / 2 / systemZoom + dualScreenLeft;
+      const top = (height - h) / 2 / systemZoom + dualScreenTop;
+      const newWindow = window.open(url, title, `scrollbars=yes, width=${w / systemZoom}, height=${h / systemZoom}, top=${top}, left=${left}`);
+
+      if (window.focus) newWindow.focus();
+    }
+
+    // This overrides the default checkout button click handler to show the embed modal
+    // instead of opening a new tab with the given link url
+    document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
+      showCheckoutWindow(e);
+    });
+  </script>
+</div>
 </div>
 
           <!--
@@ -2396,7 +2446,7 @@
        <!--
       - BLOG
     -->
-
+<!--
     <div class="blog">
 
       <div class="container">
@@ -2499,7 +2549,7 @@
       </div>
 
     </div>
-
+-->
   </main>
 
 
