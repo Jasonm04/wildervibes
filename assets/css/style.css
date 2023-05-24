@@ -30,7 +30,7 @@
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
   --white-w: hsl(0, 100%, 100%);
-  --white: hsl(360, 95%, 43%);
+  --purple: hsl(307, 100%, 40%);
   --onyx: hsl(0, 0%, 13%);
 
   /**
@@ -112,7 +112,7 @@ input {
 
 input::placeholder { font: inherit; }
 
-body { background: var(--white); }
+body { background: var(--purple); }
 
 /**
  * scrollbar style
@@ -121,13 +121,13 @@ body { background: var(--white); }
 body::-webkit-scrollbar { width: 15px; }
 
 body::-webkit-scrollbar-track {
-  background: var(--white);
+  background: var(--purple);
   border-left: 1px solid var(--cultured);
 }
 
 body::-webkit-scrollbar-thumb {
   background: hsl(0, 0%, 80%);
-  border: 3px solid var(--white);
+  border: 3px solid var(--purple);
   border-radius: 10px;
 }
 
@@ -152,7 +152,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
   background: transparent;
-  border: 3px solid var(--white);
+  border: 3px solid var(--purple);
   border-radius: 20px;
 }
 
@@ -257,7 +257,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   position: relative;
   max-width: 350px;
   margin: 20px;
-  background: var(--white);
+  background: var(--purple);
   border-radius: var(--border-radius-md);
   overflow:;
   z-index: 2;
@@ -276,7 +276,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   top: 15px;
   right: 15px;
   background: var(--salmon-pink);
-  color: var(--white);
+  color: var(--purple);
   font-size: 16px;
   padding: 5px;
   border-radius: var(--border-radius-sm);
@@ -316,7 +316,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .btn-newsletter {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--purple);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -341,7 +341,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   bottom: 80px;
   left: 20px;
   right: 20px;
-  background: var(--white);
+  background: var(--purple);
   max-width: 300px;
   display: flex;
   align-items: flex-start;
@@ -511,10 +511,10 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .search-field::-webkit-search-cancel-button { display: none; }
 
 .search-btn {
-  background: var(--white);
+  background: var(--purple);
   position: absolute;
   top: 50%;
-  right: 2px;
+  right: 2px
   transform: translateY(-50%);
   color: var(--onyx);
   font-size: 18px;
@@ -526,7 +526,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .search-btn:hover { color: var(--salmon-pink); }
 
 .mobile-bottom-navigation {
-  background: var(--white);
+  background: var(--purple);
   position: fixed;
   bottom: 0;
   left: 50%;
@@ -551,7 +551,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .mobile-bottom-navigation .count {
   background: var(--bittersweet);
-  color: var(--white);
+  color: var(--purple);
   position: absolute;
   top: 0;
   right: 0;
@@ -563,7 +563,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .mobile-navigation-menu {
-  background: var(--white);
+  background: var(--purple);
   position: fixed;
   top: 0;
   left: -100%;
@@ -766,7 +766,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .banner-btn {
   background: var(--salmon-pink);
-  color: var(--white);
+  color: var(--purple);
   width: max-content;
   font-size: var(--fs-11);
   font-weight: var(--weight-600);
@@ -852,7 +852,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 \*-----------------------------------*/
 
 .sidebar {
-  background: var(--white);
+  background: var(--purple);
   position: fixed;
   top: 0;
   left: -100%;
@@ -1176,7 +1176,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-featured .add-cart-btn {
   background: var(--salmon-pink);
   padding: 8px 15px;
-  color: var(--white);
+  color: var(--purple);
   font-weight: var(--fs-9);
   font-weight: var(--weight-700);
   text-transform: uppercase;
@@ -1187,7 +1187,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-featured .add-cart-btn:hover {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--purple);
 }
 
 .product-featured .showcase-status { margin-bottom: 15px; }
@@ -1341,7 +1341,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .cta-content .discount {
   background: var(--eerie-black);
-  color: var(--white);
+  color: var(--purple);
   font-size: var(--fs-11);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -1558,7 +1558,7 @@ footer {
 
 .footer-nav .nav-title {
   position: relative;
-  color: var(--white);
+  color: var(--purple);
   font-size: var(--fs-7);
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -2089,7 +2089,7 @@ footer {
 
   .header-social-container .social-link:hover {
     background: var(--salmon-pink);
-    color: var(--white);
+    color: var(--purple);
   }
 
   .header-user-actions {
@@ -2110,7 +2110,7 @@ footer {
     top: -2px;
     right: -3px;
     background: var(--bittersweet);
-    color: var(--white);
+    color: var(--purple);
     font-size: 12px;
     font-weight: var(--weight-500);
     line-height: 1;
@@ -2161,7 +2161,7 @@ footer {
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--white);
+    background: var(--purple);
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -2218,7 +2218,7 @@ footer {
     top: 100%;
     left: 0;
     width: 200px;
-    background: var(--white);
+    background: var(--purple);
     padding: 20px 0;
     border-radius: var(--border-radius-md);
     border: 1px solid var(--cultured);
